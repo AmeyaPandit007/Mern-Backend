@@ -56,7 +56,7 @@ mongoose
   )
   .then(() => {
     console.log("Connected To database".cyan.bold);
-    app.listen(5000, (req, res) => {
+    app.listen(process.env.PORT || 5000, (req, res) => {
       console.log(`Server is up and running on PORT 5000`.rainbow.bold);
     });
   })
