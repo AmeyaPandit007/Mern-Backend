@@ -2,7 +2,7 @@
     "env": {
         "DB_USER": "ameya",
         "DB_PASSWORD": "ameya",
-        "DB_NAME": "mern",
+        "DB_NAME": "mernTrial",
         "GOOGLE_API_KEY" : "AIzaSyBvNq0l2KUBXxiHhXg-8iBkMpPzJDQLhVo",
         "JWT_KEY": "supersecret_dont_share"
     }
